@@ -102,3 +102,12 @@
    ```bash
    docker pull elixirprotocol/validator:v3
    ```
+
+4. Запускаємо Validator Node:
+    ```bash
+   docker run -d \
+   --env-file /root/validator.env \
+   --name elixir \
+   --restart unless-stopped \
+   elixirprotocol/validator:v3
+   ```
