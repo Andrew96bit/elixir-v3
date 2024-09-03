@@ -111,3 +111,10 @@
    --restart unless-stopped \
    elixirprotocol/validator:v3
    ```
+
+## 6. Перевірка чи працює нода
+
+1. Лог ноди:
+   ```bash
+   docker logs elixir -f -n 500
+   ```
