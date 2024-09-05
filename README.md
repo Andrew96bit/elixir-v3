@@ -74,7 +74,7 @@
 
 2. Запустіть Validator Node:
    ```bash
-   docker run --env-file /root/validator.env --restart unless-stopped -p 17690:17690 elixirprotocol/validator:v3
+   docker run --env-file /root/validator.env --name elixir --restart unless-stopped -p 17690:17690 elixirprotocol/validator:v3
    ```
 
 3. Для перевірки, чи запустився контейнер з нодою:
@@ -106,5 +106,5 @@
 
 4. Запускаємо Validator Node:
     ```bash
-   docker run --env-file /root/validator.env --restart unless-stopped -p 17690:17690 elixirprotocol/validator:v3
+   docker run --env-file /root/validator.env --name elixir --restart unless-stopped -p 17690:17690 elixirprotocol/validator:v3
    ```
