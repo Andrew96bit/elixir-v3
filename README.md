@@ -86,6 +86,11 @@
    ```bash
    docker logs elixir -f -n 500
    ```
+   
+5. Статус ноди:
+   ```bash
+   curl localhost:17690/metrics
+   ```   
 
 ## 6. Оновлення ноди
 
